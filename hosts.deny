@@ -1,0 +1,106 @@
+# /etc/hosts.deny: list of hosts that are _not_ allowed to access the system.
+#                  See the manual pages hosts_access(5) and hosts_options(5).
+#
+# Example:    ALL: some.host.name, .some.domain
+#             ALL EXCEPT in.fingerd: other.host.name, .other.domain
+#
+# If you're going to protect the portmapper use the name "rpcbind" for the
+# daemon name. See rpcbind(8) and rpc.mountd(8) for further information.
+#
+# The PARANOID wildcard matches any host whose name does not match its
+# address.
+#
+# You may wish to enable this to ensure any programs that don't
+# validate looked up hostnames still leave understandable logs. In past
+# versions of Debian this has been the default.
+# ALL: PARANOID
+sshd: 173.189.197.38
+sshd: 104.131.186.218
+sshd: 180.101.88.231
+sshd: 61.177.172.140
+sshd: 218.92.0.27
+sshd: 179.43.180.106
+sshd: 116.198.216.49
+sshd: 61.177.172.136
+sshd: 59.23.199.21
+sshd: 218.92.0.76
+sshd: 218.92.0.24
+sshd: 43.159.55.112
+sshd: 218.92.0.118
+sshd: 218.92.0.47
+sshd: 61.177.172.179
+sshd: 45.165.170.41
+sshd: 180.101.88.196
+sshd: 218.92.0.31
+sshd: 218.92.0.56
+sshd: 218.92.0.45
+sshd: 218.92.0.
+sshd: 221.139.3.84
+sshd: 168.253.61.210
+sshd: 218.60.50.17
+sshd: 61.216.43.182
+sshd: 193.201.9.156
+sshd: 183.81.169.238
+sshd: 103.157.114.106
+sshd: 180.101.88.205
+sshd: 111.70.0.180
+sshd: 85.209.11.227
+sshd: 212.70.149.150
+sshd: 211.251.21.18
+sshd: 129.226.210.215
+sshd: 152.32.205.101
+sshd: 37.244.239.58
+sshd: 43.129.92.182
+sshd: 104.236.74.180
+sshd: 121.137.74.48
+sshd: 43.129.92.182
+sshd: 202.185.12.124
+sshd: 114.108.126.228
+sshd: 218.92.0.22
+sshd: 165.154.44.58
+sshd: 37.244.239.58
+sshd: 189.7.17.61
+sshd: 180.101.88.196
+sshd: 218.92.0.31
+sshd: 106.12.174.50
+sshd: 43.155.132.63
+sshd: 61.177.172.136
+sshd: 183.81.169.238
+sshd: 101.36.105.7
+sshd: 45.165.170.41
+sshd: 168.253.61.210
+sshd: 125.134.141.210
+sshd: 175.180.129.87
+sshd: 129.226.210.215
+sshd: 218.92.0.107
+sshd: 218.60.50.17
+sshd: 122.224.37.86
+sshd: 218.92.0.112
+sshd: 102.70.87.45
+sshd: 104.236.74.180
+sshd: 85.209.11.227
+sshd: 36.134.89.15
+sshd: 125.88.239.167
+sshd: 46.100.5.240
+sshd: 111.70.0.180
+sshd: 103.157.114.106
+sshd: 121.202.196.194
+sshd: 43.133.204.67
+sshd: 218.92.0.113
+sshd: 155.93.232.166
+sshd: 193.201.9.156
+sshd: 61.177.172.179
+sshd: 94.159.23.102
+sshd: 222.111.179.159
+sshd: 94.207.16.19
+sshd: 212.70.149.150
+sshd: 61.216.43.182
+sshd: 117.221.68.64
+sshd: 218.92.0.56
+sshd: 65.181.73.155
+sshd: 170.79.37.84
+sshd: 221.139.3.84
+sshd: 59.4.255.205
+sshd: 211.251.21.18
+sshd: 152.32.205.101
+sshd: 180.101.88.205
